@@ -2,7 +2,7 @@ module.exports = {
 
     login: (req, res) => {
         
-                res.render('login', {
+                res.render('sections/login', {
                     title: 'login',
                 })
             }
