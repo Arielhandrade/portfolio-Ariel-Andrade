@@ -1,0 +1,35 @@
+:root {
+  --primary: #EF652A;
+  --secondary: #BEBEBE;
+  --dark: #166B7C ;
+  --light: #2594A6;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color: var(--primary);
+  font-weight: bold;
+  font-size: 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+ul, li {
+  list-style:none;
+}
+
+.btn{
+  background-color: var(--primary);
+  border-radius: 10px;
+  color: var(--secondary);
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem;
+  text-transform: uppercase;
+  }
