@@ -1,0 +1,116 @@
+#perfil {
+  background: var(--light);
+}
+
+.name_content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  width: 100%;
+}
+
+.name {
+  animation: typing 2s steps(11), blink 0.5s infinite step-end alternate;
+  color: var(--primary);
+  font-size: 2rem;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 11ch;
+}
+
+.description {
+  animation: typing 5s steps(28);
+  color: var(--secondary);
+  font-weight: bold;
+  overflow: hidden;
+  text-transform: uppercase;
+  white-space: nowrap;
+  width: 29ch;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+.personal-description {
+  align-items: center;
+  color: var(--secondary);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 1rem;
+  text-align: justify;
+  width: 90%;
+}
+
+.avatar {
+  border: 5px solid var(--primary);
+  border-radius: 50%;
+  min-width: 150px;
+  min-height: 150px;
+}
+
+.text-description {
+  margin: 1rem 0;
+}
+
+.img-decoration {
+  min-width: 150px;
+  width: 40%;
+}
+
+.btn-cv-content {
+  align-items: center;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  width: 90%;
+}
+
+.btn-download {
+  font-size: 0.7rem;
+  margin: 0 auto;
+  max-width: 35%;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .name {
+    font-size: 5rem;
+  }
+
+  .description {
+    font-size: 1.5rem;
+  }
+
+  .personal-description {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .avatar {
+    border: 5px solid var(--primary);
+    border-radius: 50%;
+    min-height: 300px;
+    min-width: 300px;
+    width: 25%;
+  }
+
+  .text-description {
+    font-size: 2rem;
+    width: 60%;
+  }
+
+  .img-decoration {
+    width: 25%;
+  }
+
+  .btn-download {
+    font-size: 2rem;
+  }
+}

@@ -1,18 +1,18 @@
 :root {
-  --primary: #EF652A;
-  --secondary: #BEBEBE;
-  --dark: #166B7C ;
-  --light: #2594A6;
+  --primary: #ef652a;
+  --secondary: #bebebe;
+  --dark: #166b7c;
+  --light: #2594a6;
 }
 
 * {
   box-sizing: border-box;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   margin: 0;
   padding: 0;
 }
 
-a{
+a {
   color: var(--primary);
   font-weight: bold;
   font-size: 2rem;
@@ -20,11 +20,12 @@ a{
   text-transform: uppercase;
 }
 
-ul, li {
-  list-style:none;
+ul,
+li {
+  list-style: none;
 }
 
-.btn{
+.btn {
   background-color: var(--primary);
   border-radius: 10px;
   color: var(--secondary);
@@ -32,4 +33,54 @@ ul, li {
   font-weight: bold;
   padding: 0.5rem;
   text-transform: uppercase;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+main .section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 60vh;
+  padding-bottom: 1rem;
+  width: 100%;
+}
+
+main .title {
+  background-color: #000;
+  border-radius: 10px;
+  color: var(--primary);
+  font-size: 1.5rem;
+  font-weight: lighter;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+  text-transform: capitalize;
+  width: 90%;
+}
+
+main .content {
+  background-color: #000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  width: 90%;
+}
+
+@media (min-width: 768px) {
+  a{
+    font-size: 1.3rem;
   }
+  main .title {
+    font-size: 3rem;
+  }
+}

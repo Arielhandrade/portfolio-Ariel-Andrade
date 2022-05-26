@@ -3,28 +3,28 @@ module.exports = {
     contact: (req, res) => {
         
                 res.render('sections/contact', {
-                    title: 'contact',
+                    title: 'contacto',
                 })
             },
 
     profile: (req, res) => {
         
                 res.render('sections/profile', {
-                    title: 'profile',
+                    title: 'perfil',
                 })
             },
 
     works: (req, res) => {
         
                 res.render('sections/works', {
-                    title: 'works',
+                    title: 'trabajos',
                 })
             },
 
     skills: (req, res) => {
         
                 res.render('sections/skills', {
-                    title: 'skills',
+                    title: 'habilidades',
                 })
             }
 
