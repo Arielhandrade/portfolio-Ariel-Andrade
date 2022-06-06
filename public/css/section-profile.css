@@ -19,14 +19,14 @@
   width: 11ch;
 }
 
-.description {
+.profile-description {
   animation: typing 5s steps(28);
   color: var(--secondary);
   font-weight: bold;
   overflow: hidden;
   text-transform: uppercase;
   white-space: nowrap;
-  width: 29ch;
+  width: 31ch;
 }
 
 @keyframes typing {
@@ -41,7 +41,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 1rem;
   text-align: justify;
   width: 90%;
 }
