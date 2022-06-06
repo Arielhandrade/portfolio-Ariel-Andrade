@@ -1,0 +1,131 @@
+#trabajos {
+  background-color: var(--dark);
+  width: 100%;
+}
+
+#trabajos .subtitle {
+  background: #000;
+  background-color: var(--primary);
+  border-radius: 1rem;
+  color: var(--secondary);
+  font-size: 2rem;
+  padding: 0.5rem;
+  margin: 1rem;
+  text-align: center;
+  width: 90%;
+}
+
+.links-cards {
+  font-size: 1rem;
+  width: 50%;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 10px;
+  font-family: verdana;
+  height: 300px;
+  margin: 1rem;
+  perspective: 1000px;
+  width: 250px;
+}
+
+.card__inner {
+  border-radius: 10px;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s linear;
+  width: 100%;
+}
+
+.face {
+  backface-visibility: hidden;
+  background-color: var(--light);
+  border-radius: 10px;
+  color: var(--secondary);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.back {
+  box-sizing: border-box;
+  display: block;
+  overflow: hidden;
+  transform: rotateY(180deg);
+  z-index: -1;
+}
+
+/* Front Card */
+.front {
+  border-radius: 0 0 20px 20px;
+  box-shadow: 5px 5px 15px var(--primary);
+  text-align: center;
+  z-index: 1;
+}
+
+.heading {
+  background: var(--primary);
+  border-radius: 0 0 50% 0;
+  color: var(--secondary);
+  font-size: 14px;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.description {
+  border-radius: 0 0 10px 10px;
+  bottom: 0;
+  font-style: italic;
+  height: 100px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+/* Back Card */
+.back {
+  box-shadow: 5px 5px 15px var(--primary);
+}
+
+.undo {
+  cursor: pointer;
+  width: 20px;
+}
+
+.proyect-card-back-description{
+    margin: 10px 0;
+    padding: 10px;
+    text-align: justify;
+}
+
+.link-card-container{
+    display: flex;
+}
+
+.link-card-item{
+    font-size: 5rem;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.return {
+  background-color: var(--secondary);
+  border-radius: 0 0 10px 10px;
+  bottom: 0;
+  color: #ef652a;
+  padding: 5px;
+  position: absolute;
+  width: 100%;
+}
+
+.flipped {
+  transform: rotateY(180deg);
+}

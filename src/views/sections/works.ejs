@@ -1,7 +1,43 @@
 <%- include('../partials/head.ejs') %>
+
   <body>
     <%- include('../partials/header.ejs') %>
-    <h1><%= title %></h1>
-    <%- include('../partials/scripts.ejs') %>
+      <main>
+        <section class="section" id="trabajos">
+          <div class="title" >
+              <h3>
+                  trabajos
+              </h3>
+          </div>
+          <div class="content">
+              <div class="subtitle">
+                  <h4>
+                     proyectos
+                 </h4>
+              </div>   
+              <div class="cards-container">
+
+                <%- include('../partials/proyect-card.ejs') %>
+                <%- include('../partials/proyect-card.ejs') %>
+                 
+                  </div>
+                  <div class="subtitle">
+                      <h4>
+                         diseños
+                     </h4>
+                  </div>   
+                  
+                      <div class="cards-container">
+
+                        <%- include('../partials/proyect-card.ejs') %>
+                        <%- include('../partials/proyect-card.ejs') %>
+
+                          </div>
+
+          </div>
+      </section>
+      </main>
+      <%- include('../partials/scripts.ejs') %>
   </body>
-</html>
+
+  </html>

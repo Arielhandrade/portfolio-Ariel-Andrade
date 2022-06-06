@@ -1,41 +1,46 @@
 <%- include('../partials/head.ejs') %>
-  <body>
-    <%- include('../partials/header.ejs') %>
-    <main>
-      <section class="section" id="perfil">
-        <div class="title">
-            <h3>
-              <%= title %>
-            </h3>
-        </div>
-        <div class="content">
-            <div class="name_content">
-                <div class="name">
-                    Ariel Andrade
-                </div>
-                <div class="description">
-                    desarrollador web full stack
-                </div>
-            </div>
-            <div class="personal-description">
-                <img   src="/images/default-avatar.png" alt="" class="avatar">
-                <p class="text-description">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum incidunt assumenda neque
-                    provident error hic, fuga, porro vero quasi ea, eius magnam esse repellendus? Dolor, officia
-                    quas odit porro alias suscipit ducimus aliquid ea facilis earum repellat voluptate consequuntur
-                    explicabo exercitationem eveniet ipsa labore cumque velit a officiis recusandae odio.
-                </p>
-            </div>
-           
-        </div>
-        <div class="btn-cv-content">
-                <img class="img" style="width: 40%;" src="/images/imgs-decoration/img-profile.png" alt="">
-                <a class="btn btn-download" href="/src/docs/cv.pdf" download>
-                    descargar CV
-                </a>
-            </div>
-    </section>
-    </main>
-    <%- include('../partials/scripts.ejs') %>
-  </body>
-</html>
+
+    <body>
+        <%- include('../partials/header.ejs') %>
+            <main>
+                <section class="section" id="perfil">
+                    <div class="title">
+                        <h3>
+                            <%= title %>
+                        </h3>
+                    </div>
+                    <div class="content">
+                        <div class="name_content">
+                            <div class="name">
+                                Ariel Andrade
+                            </div>
+                            <div class="description">
+                                desarrollador web full stack
+                            </div>
+                        </div>
+                        <div class="personal-description">
+                            <img src="/images/default-avatar.png" alt="" class="avatar">
+                            <p class="text-description">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum incidunt assumenda
+                                neque
+                                provident error hic, fuga, porro vero quasi ea, eius magnam esse repellendus? Dolor,
+                                officia
+                                quas odit porro alias suscipit ducimus aliquid ea facilis earum repellat voluptate
+                                consequuntur
+                                explicabo exercitationem eveniet ipsa labore cumque velit a officiis recusandae odio.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="btn-cv-content">
+                        <img class="img" style="width: 40%;" src="/images/imgs-decoration/img-profile.png" alt="">
+                        <a class="btn btn-download" href="/src/docs/CV - Ariel Andrade.pdf" download>
+                            descargar CV
+                        </a>
+                    </div>
+                </section>
+            </main>
+            <%- include('../partials/scripts.ejs') %>
+    </body>
+
+    </html>
