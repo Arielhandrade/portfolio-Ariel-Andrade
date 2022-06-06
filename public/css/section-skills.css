@@ -1,0 +1,13 @@
+#habilidades {
+    background-color: var(--primary);
+    width: 100%;
+  }
+
+  .card__skills{
+    margin: 1rem;
+      padding: 1rem;
+      background-color: var(--secondary);
+     
+      border-radius: 1rem;
+      box-shadow: 5px 5px 15px var(--primary);
+  }
