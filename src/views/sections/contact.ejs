@@ -1,7 +1,58 @@
 <%- include('../partials/head.ejs') %>
   <body>
     <%- include('../partials/header.ejs') %>
-    <h1><%= title %></h1>
+    <main>
+      <section class="section" id="contacto">
+        <div class="title">
+            <h3>
+                contacto
+            </h3>
+        </div>
+        <div class="content">
+            
+
+            <div class="contact-wrapper animated bounceInUp">
+                <div class="contact-form">
+                   
+                    <form action="">
+                        <p>
+                            <label>nombre</label>
+                            <input type="text" name="name">
+                        </p>
+                        <p>
+                            <label>Email</label>
+                            <input type="email" name="email">
+                        </p>
+                        <p>
+                            <label>motivo de contacto</label>
+                            <input type="text" name="affair">
+                        </p>
+                        <p class="block">
+                           <label>mensaje</label> 
+                            <textarea name="message" rows="5"></textarea>
+                        </p>
+                        <p class="block">
+                            <button class="btn">
+                                enviar
+                            </button>
+                        </p>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Buenos Aires, Argentina</li>
+                        
+                        <li><i class="fas fa-envelope-open-text"></i> contact@website.com</li>
+                        <li><i class="fas fa-envelope-open-text"></i> linkedin</li>
+                        <li><i class="fas fa-envelope-open-text"></i> github</li>
+                    </ul>
+                    <img style="width: 200px; " src="/images/imgs-decoration/img-contact.png" alt="">
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    </main>
         <%- include('../partials/scripts.ejs') %>
   </body>
 </html>
