@@ -107,10 +107,10 @@
 
 .link-card-container{
     display: flex;
+    justify-content: space-evenly;
 }
 
 .link-card-item{
-    font-size: 5rem;
     flex-direction: column;
     display: flex;
     justify-content: center;
