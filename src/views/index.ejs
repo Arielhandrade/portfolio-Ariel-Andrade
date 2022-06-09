@@ -1,7 +1,60 @@
 <%- include('./partials/head.ejs') %>
+
   <body>
-    <%- include('./partials/header.ejs') %>
-    <h1><%= title %></h1>
+    <header class="header">
+      <nav class="nav">
+        <a href="/" class="logo"><img src="/images/logo/Logo-portfolio-completo.svg" alt="logo"></a>
+        <div class="btn-config">
+          <i class="fa-solid fa-gear"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="index">
+
+      <div class="link-to-section link1" id="perfil">
+        <div class="title">
+          <h3>
+            perfil
+          </h3>
+        </div>
+        <a href="/portfolio/profile">
+          <img class="img-link" src="/images/imgs-index/index-profile.svg" alt="">
+        </a>
+      </div>
+      <div class="link-to-section link2" id="trabajos">
+        <div class="title">
+          <h3>
+            trabajos
+          </h3>
+        </div>
+        <a href="/portfolio/works">
+          <img class="img-link" src="/images/imgs-index/index-works.svg" alt="">
+        </a>
+      </div>
+      <div class="link-to-section link3" id="habilidades">
+        <div class="title">
+          <h3>
+            habilidades
+          </h3>
+        </div>
+        <a href="/portfolio/skills">
+          <img class="img-link" src="/images/imgs-index/index-skills.svg" alt="">
+        </a>
+      </div>
+      <div class="link-to-section link4" id="contacto">
+        <div class="title">
+          <h3>
+            habilidades
+          </h3>
+        </div>
+        <a href="portfolio/contact">
+          <img class="img-link" src="/images/imgs-index/index-contact.svg" alt="">
+        </a>
+      </div>
+
+    </main>
     <%- include('./partials/scripts.ejs') %>
   </body>
-</html>
+
+  </html>

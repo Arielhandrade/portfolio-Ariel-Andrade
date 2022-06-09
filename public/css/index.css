@@ -1,0 +1,77 @@
+.btn-config {
+    color: var(--primary); 
+    margin:0 1rem; 
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.index{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#perfil .title {
+    margin: 0.5rem;
+}
+
+#trabajos .title {
+    margin: 0.5rem;
+}
+
+#habilidades .title {
+    margin: 0.5rem;
+}
+
+#contacto .title {
+    margin: 0.5rem;
+}
+
+.link-to-section{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+background-color: var(--dark);
+
+}
+
+.link2, 
+.link4 {
+background-color: var(--light);
+}
+
+.index-title{
+   display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+/* .link-to-section a {
+    width: 50%;
+} */
+.img-link{
+    width: 100%;
+    height: 35vh;
+    padding: 1rem;
+}
+
+
+@media (min-width: 500px) {
+    .link-to-section{
+        height: 50vh;
+        width: 50%; 
+    }
+main .title { 
+    font-size: 1.5rem;
+  }
+
+.img-link:hover {
+/*     box-shadow: 15px 15px 20px 10px rgb(2, 2, 2); */
+/*     border-radius: 1.5rem; */
+padding: 0rem;
+/* background-color:black; */
+}
+}
