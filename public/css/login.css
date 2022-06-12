@@ -29,7 +29,7 @@
  color: var(--secondary);
 }
 
-.btn-close {
+.btn-closed {
     position: relative;
     font-size: 2rem;
     color: var(--primary);
