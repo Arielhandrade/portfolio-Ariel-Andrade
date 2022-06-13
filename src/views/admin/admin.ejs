@@ -1,7 +1,7 @@
 <%- include('../partials/head.ejs') %>
 
     <body>
-        <main class="bg-body">
+        <main style="background-color: #000;">
             <div class="content">
                 <!-- PROYECTOS -->
                 <table class="table table-dark table-striped table-bordered mt-3">
@@ -139,6 +139,7 @@
                         <td colspan="7" class="text-center fs-1 fw-bold bg-dark">USUARIOS</td>
                         <tr>
                             <th scope="col">Nombre</th>
+                            <th class="column-mobile" scope="col">email</th>
                             <th class="column-mobile" scope="col">contraseña</th>
                             <th scope="col">editar</th>
                             <th scope="col">borrar</th>
@@ -149,6 +150,9 @@
                         <tr>
                             <td>
                                 nombre
+                            </td>
+                            <td class="column-mobile">
+                                email@mail.com
                             </td>
                             <td class="column-mobile">
                                 contraseña

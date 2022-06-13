@@ -1,4 +1,60 @@
 <%- include('../partials/head.ejs') %>
 
-<h1>agregar-usuarios</h1>
+<body>
 
+    <main>
+
+        <div id="form-add" class="form-add-container">
+
+            <form class="form-add" id="addForm" action='/cuenta/iniciar-sesion' method="POST">
+                
+                <a href="/administrador/panel-administrador">
+                    <div class="back-to-panel">
+                        <i class="fa-solid fa-reply"></i>
+                    </div>
+                </a>
+
+                <h3>Agregar Proyecto</h3>
+    
+                <!-- name -->
+                <label>nombre</label>
+                <input class="form-input" type="text" name="name" id="name">
+                <span id="nameErrors"></span>
+                <!--   <% if (locals.errors && errors.name) { %>
+                <small class="text-error">
+                    <%= errors.name.msg %>
+                </small>
+                <% } %> -->
+    
+                <!-- email -->
+                <label>email</label>
+                <input class="form-input" type="email" name="email" id="email">
+                <span id="emailErrors"></span>
+                <!-- <% if (locals.errors && errors.email) { %>
+                        <small class="text-error">
+                            <%= errors.email.msg %>
+                        </small>
+                        <% } %> -->
+    
+                <!-- password -->
+                <label>contraseña</label>
+                <input class="form-input " type="password" name="password id="password>
+                <span id="passwordErrors"></span>
+                <!-- <% if (locals.errors && errors.password) { %>
+                        <small class="text-error">
+                            <%= errors.password.msg %>
+                        </small>
+                        <% } %> -->
+                        
+                <!-- button log in -->
+                <button class="btn btn-css btn-add" type="submit" value="log-in">Crear</button>
+                <span id="submitErrors"></span>
+    
+            </form>
+        </div>
+
+    </main>
+
+  </body>
+
+  </html>
