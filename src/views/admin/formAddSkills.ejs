@@ -1,3 +1,34 @@
 <%- include('../partials/head.ejs') %>
 
-<h1>agregar-habilidades</h1>
+<body>
+
+    <main>
+
+        <div id="form-add" class="form-add-container">
+
+            <form class="form-add" id="addForm" action='/cuenta/iniciar-sesion' method="POST">
+                
+                <a href="/administrador/panel-administrador">
+                    <div class="back-to-panel">
+                        <i class="fa-solid fa-reply"></i>
+                    </div>
+                </a>
+
+                <h3>Agregar Habilidad</h3>
+    
+                <!-- image -->
+                <label>imágen</label>
+                <input type="file" class="form-input" src="" alt="">
+                        
+                <!-- button log in -->
+                <button class="btn btn-css btn-add" type="submit" value="log-in">Crear</button>
+                <span id="submitErrors"></span>
+    
+            </form>
+        </div>
+
+    </main>
+
+  </body>
+
+  </html>
