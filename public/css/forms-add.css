@@ -24,6 +24,12 @@ border-radius: 1rem;
 width:100%;
 }
 
+.back-to-panel {
+    color: var(--primary);
+    text-align: start;
+    margin-bottom: 1rem;
+}
+
 .form-add {
     background-color: rgba(0, 0, 0, 0.75);
     padding: 1rem;
