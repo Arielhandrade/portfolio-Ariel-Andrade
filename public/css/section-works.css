@@ -2,7 +2,7 @@
   background-color: var(--dark);
 }
 
-#trabajos .subtitle {
+ .subtitle {
   background: #000;
   background-color: var(--primary);
   border-radius: 1rem;
