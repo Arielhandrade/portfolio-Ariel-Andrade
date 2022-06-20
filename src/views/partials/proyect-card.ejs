@@ -1,41 +1,50 @@
-<div class="card">
+<% proyects.forEach(proyect=> { %>
+    <div class="card">
 
-    <div class="card__inner">
-        <div class="front face">
+        <div class="card__inner">
+            <div class="front face">
+                
+                    
+                    <img style="width:100%; height: 85%; overflow-y: scroll;"
+                        src="/images/imgs-proyect/<%- proyect.image ? proyect.image : proyect.default %>" alt="">
+               
 
-            <div class="return">
-                <button class="flip btn-css ">descripcion</button>
-            </div>
-
-        </div>
-
-        <div class="back face">
-            <div class="heading">
-                <h2>title</h2>
-            </div>
-
-            <p class="proyect-card-back-description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet alias et officiis iste voluptatem
-                facilis, consectetur nihil delectus. Voluptatibus, alias.
-            </p>
-
-            <div class=" return">
-                <div class="link-card-container">
-                    <a class="links-cards" href="http://">
-                        <div class="link-card-item">
-                            <i class="fa-solid fa-desktop"></i>web
-                        </div>
-                    </a>
-                    <a class="links-cards" href="http://">
-                        <div class="link-card-item">
-
-                            <i class="fa-brands fa-github"></i>github
-                        </div>
-                    </a>
+                <div class="return">
+                    <button class="flip btn-css ">descripcion</button>
                 </div>
 
-                <i class="fa-solid fa-arrow-rotate-left undo flip"></i>
+            </div>
+
+            <div class="back face">
+                <div class="heading">
+                    <h2>
+                        <%- proyect.title %>
+                    </h2>
+                </div>
+
+                <p class="proyect-card-back-description">
+                    <%- proyect.description %>
+                </p>
+
+                <div class=" return">
+                    <div class="link-card-container">
+                        <a class="links-cards" href="<%- proyect.linkToWeb %>" target="_blank">
+                            <div class="link-card-item">
+                                <i class="fa-solid fa-desktop"></i>web
+                            </div>
+                        </a>
+
+                        <a class="links-cards" href="<%- proyect.linkToCode %>" target="_blank">
+                            <div class="link-card-item">
+
+                                <i class="fa-brands fa-github"></i>github
+                            </div>
+                        </a>
+                    </div>
+
+                    <i class="fa-solid fa-arrow-rotate-left undo flip"></i>
+                </div>
             </div>
         </div>
     </div>
-</div>
+    <% }) %>

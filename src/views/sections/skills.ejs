@@ -9,26 +9,60 @@
               habilidades
             </h3>
           </div>
+
           <div class="content">
 
-            <div class="card__skills">
-              <img style="width: 200px; height: 200px;" src="/images/default-image.png" alt="">
-            </div>
-            <div class="card__skills">
-              <img style="width: 200px; height: 200px;" src="/images/default-image.png" alt="">
-            </div>
-            <div class="card__skills">
-              <img style="width: 200px; height: 200px;" src="/images/default-image.png" alt="">
-            </div>
-            <div class="card__skills">
-              <img style="width: 200px; height: 200px;" src="/images/default-image.png" alt="">
-            </div>
-            <div class="card__skills">
-              <img style="width: 200px; height: 200px;" src="/images/default-image.png" alt="">
-            </div>
-            <div class="card__skills">
-              <img style="width: 200px; height: 200px;" src="/images/default-image.png" alt="">
-            </div>
+            <div class="subtitle">
+            <h4>
+                diseños
+            </h4>
+        </div>
+
+        <% design.forEach(element => { %>
+          <div class="card__skills">
+           <img style="width: 200px; height: 200px; border-radius: 1rem;" src="/images/imgs-skills/<%- element.name %>.png" alt="">
+         </div>
+          <% }) %>
+        
+            <div class="subtitle">
+            <h4>
+                front end
+            </h4>
+        </div>
+
+        <% frontend.forEach(element => { %>
+          <div class="card__skills">
+           <img style="width: 200px; height: 200px; border-radius: 1rem;" src="/images/imgs-skills/<%- element.name %>.png" alt="">
+         </div>
+          <% }) %>
+       
+            <div class="subtitle">
+            <h4>
+                back end
+            </h4>
+        </div>
+ 
+        <% backend.forEach(element => { %>
+          <div class="card__skills">
+           <img style="width: 200px; height: 200px; border-radius: 1rem;" src="/images/imgs-skills/<%- element.name %>.png" alt="">
+         </div>
+          <% }) %>
+          
+            <div class="subtitle">
+              <h4>
+                  otros
+              </h4>
+          </div>
+
+          <div class="card__skills">
+            <img style="width: 200px; height: 200px; border-radius: 1rem;" src="/images/imgs-skills/vsCode.png" alt="">
+          </div>
+          <div class="card__skills">
+            <img style="width: 200px; height: 200px; border-radius: 1rem;" src="/images/imgs-skills/git.png" alt="">
+          </div>
+          <div class="card__skills">
+            <img style="width: 200px; height: 200px; border-radius: 1rem;" src="/images/imgs-skills/github.png" alt="">
+          </div>
 
           </div>
         </section>

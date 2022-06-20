@@ -1,22 +1,22 @@
-<div class="card">
+<% designs.forEach(design => { %>
+ <div class="card">
 
     <div class="card__inner">
         <div class="front face">
-
+            <img style="width:100%;" src="/images/imgs-disgns/<%- design.image ? design.image : design.default %>" alt="">
             <div class="return">
-                <button class="flip btn-css ">descripcion</button>
+                <button class="flip btn-css ">descripción</button>
             </div>
 
         </div>
 
         <div class="back face">
             <div class="heading">
-                <h2>title</h2>
+                <h2><%- design.title %> </h2>
             </div>
 
             <p class="proyect-card-back-description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet alias et officiis iste voluptatem
-                facilis, consectetur nihil delectus. Voluptatibus, alias.
+                <%- design.description %>
             </p>
 
             <div class=" return">
@@ -25,3 +25,4 @@
         </div>
     </div>
 </div>
+<% }) %>
