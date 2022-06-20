@@ -2,7 +2,7 @@
     {
         "id": 1,
         "category": "workProyect",
-        "image": "web-NeoTech.png",
+        "image": "web-Neotech.png",
         "default": "default-image.png",
         "title": "NeoTech",
         "description": "E-commerce para productos de tecnología, desarrollado en el curso de Programación Web Full Stack brindado por Digital House.",
@@ -11,7 +11,7 @@
     },
     {
         "id": 2,
-        "category": "workProyect",
+        "category": "",
         "image": "",
         "default": "default-image.png",
         "title": "FMS Votación",
@@ -32,7 +32,15 @@
         "category": "workDesign",
         "image": "logo-motoAgil.png",
         "default": "default-image.png",
-        "title": "Logo NeoTech",
+        "title": "Logo Moto Agil",
         "description": "Logo diseñado para la mensajería Moto Agil"
+    },
+    {
+        "id": 5,
+        "category": "workDesign",
+        "image": "tarjeta-presentacion.png",
+        "default": "default-image.png",
+        "title": "Tarjeta Moto Agil",
+        "description": "Tarjeta de presentación diseñada para la mensajería Moto Agil"
     }
 ]
