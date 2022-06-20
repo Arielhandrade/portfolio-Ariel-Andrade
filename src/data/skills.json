@@ -1,0 +1,55 @@
+[
+    {
+        "category": "diseño",
+        "name": "figma"
+    },
+    {
+        "category": "diseño",
+        "name": "gimp"
+    },
+    {
+        "category": "front",
+        "name": "html5"
+    },
+    {
+        "category": "front",
+        "name": "css3"
+    },
+    {
+        "category": "front",
+        "name": "js"
+    },
+    {
+        "category": "front",
+        "name": "bootstrap"
+    },
+    {
+        "category": "front",
+        "name": "react"
+    },
+    {
+        "category": "back",
+        "name": "nodejs"
+    },
+    {
+        "category": "back",
+        "name": "express"
+    },
+    {
+        "category": "back",
+        "name": "mySql"
+    },
+    {
+        "category": "otros",
+        "name": "vsCode"
+    },
+    {
+        "category": "otros",
+        "name": "git"
+    },
+    {
+        "category": "otros",
+        "name": "github"
+    }
+    
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "category": "workProyect",
+        "image": "web-NeoTech.png",
+        "default": "default-image.png",
+        "title": "NeoTech",
+        "description": "E-commerce para productos de tecnología, desarrollado en el curso de Programación Web Full Stack brindado por Digital House.",
+        "linkToWeb": "https://neotech-pi.herokuapp.com/",
+        "linkToCode": "https://github.com/Arielhandrade/NeoTech-Formar/"
+    },
+    {
+        "id": 2,
+        "category": "workProyect",
+        "image": "",
+        "default": "default-image.png",
+        "title": "FMS Votación",
+        "description": "Aplicación para puntuar las batallas de freestyle de las diferentes ligas de FMS.",
+        "linkToWeb": "",
+        "linkToCode": ""
+    },
+    {
+        "id": 3,
+        "category": "workDesign",
+        "image": "logo-NeoTech.png",
+        "default": "default-image.png",
+        "title": "Logo NeoTech",
+        "description": "Logo diseñado para el E-commerce NeoTech"
+    },
+    {
+        "id": 4,
+        "category": "workDesign",
+        "image": "logo-motoAgil.png",
+        "default": "default-image.png",
+        "title": "Logo NeoTech",
+        "description": "Logo diseñado para la mensajería Moto Agil"
+    }
+]
