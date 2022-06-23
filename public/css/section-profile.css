@@ -2,6 +2,10 @@
   background: var(--light);
 }
 
+#perfil a:hover {
+  background-color: var(--secondary);
+}
+
 .name_content {
   align-items: center;
   display: flex;
